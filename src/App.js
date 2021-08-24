@@ -25,7 +25,7 @@ function App() {
     });
 
     let tattooPost = null;
-    if (!!selectedTattoo) {
+    if (selectedTattoo) {
         tattooPost = <TattooPost tattoo={selectedTattoo} onBgClick={onTattooCloseClick} />;
     }
 
